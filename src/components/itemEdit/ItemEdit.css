@@ -1,0 +1,30 @@
+.item-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-container .ilustracao {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* .item-container .ilustracao img {
+  max-width: max-content;
+  max-height: max-content;
+  object-fit: contain;
+} */
+
+.item-container .remove-btn {
+  width: 20px;
+  height: 20px;
+}
+
+.item-container .remove-btn img {
+  max-width: 20px;
+  max-height: 20px;
+  cursor: pointer;
+}

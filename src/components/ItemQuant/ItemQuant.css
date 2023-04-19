@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  gap: 10px;
+  font-size: 24px;
+  justify-content: center;
+}
+
+.container .botoes {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.contianer .botoes img {
+  max-width: 100%;
+}
