@@ -1,6 +1,14 @@
+.header {
+  margin-left: 200px;
+  color: gray;
+  text-align: left;
+}
+
 .main-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 150px;
+  margin: 0 auto;
 }
 
 .main-container .carrinho {

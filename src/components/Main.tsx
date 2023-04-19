@@ -97,12 +97,12 @@ export const Main = ({ itensList }: MainProps) => {
   return (
     <>
       {!envio && (
-        <>
+        <div className="header">
           <h1>Carrinho de compras</h1>
           <h4>
             Você tem {quantTotal} {quantTotal > 1 ? "itens" : "item"}
           </h4>
-        </>
+        </div>
       )}
 
       {quantTotal > 0 ? (
@@ -140,21 +140,6 @@ export const Main = ({ itensList }: MainProps) => {
           </div>
         </div>
       )}
-      {/* <div className="main-container">
-        <div className="carrinho">
-          <div className="itens">
-            <h1>PEDIDO ENVIADO</h1>
-            <p></p>
-          </div>
-        </div>
-        <div className="relative">
-          <Resumo
-            carrinho={carrinho}
-            produtos={itensList}
-            setEnvio={setEnvio}
-          />
-        </div>
-      </div> */}
     </>
   );
 };
