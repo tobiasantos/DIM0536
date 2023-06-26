@@ -39,6 +39,11 @@
   margin-right: 5px;
 }
 
+.resumo .frete input::placeholder {
+  color: aqua;
+  opacity: 1;
+}
+
 .resumo .frete .borda-vermelha {
   color: rgba(255, 0, 0, 0.6);
 }
